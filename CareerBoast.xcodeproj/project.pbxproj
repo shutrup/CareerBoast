@@ -17,6 +17,7 @@
 		15EF77552BA61B5B006E8B61 /* View + extns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77542BA61B5B006E8B61 /* View + extns.swift */; };
 		15EF77582BA61B8A006E8B61 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77572BA61B8A006E8B61 /* Preferences.swift */; };
 		15EF775B2BA61B9E006E8B61 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF775A2BA61B9E006E8B61 /* Log.swift */; };
+		878044832BA7078100A48F1C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878044822BA7078100A48F1C /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		15EF77542BA61B5B006E8B61 /* View + extns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + extns.swift"; sourceTree = "<group>"; };
 		15EF77572BA61B8A006E8B61 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		15EF775A2BA61B9E006E8B61 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		878044822BA7078100A48F1C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		15EF77372BA61992006E8B61 /* CareerBoast */ = {
 			isa = PBXGroup;
 			children = (
+				8780447F2BA7076500A48F1C /* Views */,
 				15EF77462BA61A49006E8B61 /* Resources  */,
 				15EF77482BA61AC3006E8B61 /* Models */,
 				15EF77472BA61AA6006E8B61 /* Modules */,
@@ -149,6 +152,14 @@
 			path = Log;
 			sourceTree = "<group>";
 		};
+		8780447F2BA7076500A48F1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				878044822BA7078100A48F1C /* SwiftUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +232,7 @@
 			files = (
 				15EF77392BA61992006E8B61 /* CareerBoastApp.swift in Sources */,
 				15EF77582BA61B8A006E8B61 /* Preferences.swift in Sources */,
+				878044832BA7078100A48F1C /* SwiftUIView.swift in Sources */,
 				15EF77552BA61B5B006E8B61 /* View + extns.swift in Sources */,
 				15EF774B2BA61AF0006E8B61 /* TestModel.swift in Sources */,
 				15EF77512BA61B27006E8B61 /* Color + extns.swift in Sources */,
