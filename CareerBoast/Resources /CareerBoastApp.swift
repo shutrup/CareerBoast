@@ -1,10 +1,13 @@
 import SwiftUI
+import SwiftfulRouting
 
 @main
 struct CareerBoastApp: App {
     var body: some Scene {
         WindowGroup {
-            Text("")
+            RouterView { router in
+                HomeView(router: router)
+            }
         }
     }
 }

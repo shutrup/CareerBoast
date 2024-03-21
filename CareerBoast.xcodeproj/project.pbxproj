@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1503A3282BAC3E1000E37CD2 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 1503A3272BAC3E1000E37CD2 /* SwiftfulRouting */; };
 		15EF77392BA61992006E8B61 /* CareerBoastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77382BA61992006E8B61 /* CareerBoastApp.swift */; };
 		15EF773D2BA61995006E8B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF773C2BA61995006E8B61 /* Assets.xcassets */; };
 		15EF77402BA61995006E8B61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF773F2BA61995006E8B61 /* Preview Assets.xcassets */; };
 		15EF774B2BA61AF0006E8B61 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF774A2BA61AF0006E8B61 /* TestModel.swift */; };
-		15EF774E2BA61B01006E8B61 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF774D2BA61B01006E8B61 /* AuthView.swift */; };
 		15EF77512BA61B27006E8B61 /* Color + extns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77502BA61B27006E8B61 /* Color + extns.swift */; };
 		15EF77532BA61B3C006E8B61 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77522BA61B3C006E8B61 /* UIApplication.swift */; };
 		15EF77552BA61B5B006E8B61 /* View + extns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77542BA61B5B006E8B61 /* View + extns.swift */; };
 		15EF77582BA61B8A006E8B61 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77572BA61B8A006E8B61 /* Preferences.swift */; };
 		15EF775B2BA61B9E006E8B61 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF775A2BA61B9E006E8B61 /* Log.swift */; };
+		15EF77642BA64347006E8B61 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77632BA64347006E8B61 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +26,12 @@
 		15EF773C2BA61995006E8B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15EF773F2BA61995006E8B61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15EF774A2BA61AF0006E8B61 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
-		15EF774D2BA61B01006E8B61 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		15EF77502BA61B27006E8B61 /* Color + extns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + extns.swift"; sourceTree = "<group>"; };
 		15EF77522BA61B3C006E8B61 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		15EF77542BA61B5B006E8B61 /* View + extns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + extns.swift"; sourceTree = "<group>"; };
 		15EF77572BA61B8A006E8B61 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		15EF775A2BA61B9E006E8B61 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		15EF77632BA64347006E8B61 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1503A3282BAC3E1000E37CD2 /* SwiftfulRouting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +94,7 @@
 		15EF77472BA61AA6006E8B61 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				15EF774C2BA61AF2006E8B61 /* Auth */,
+				15EF77622BA64340006E8B61 /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -113,14 +115,6 @@
 				15EF774F2BA61B11006E8B61 /* Extentions */,
 			);
 			path = Common;
-			sourceTree = "<group>";
-		};
-		15EF774C2BA61AF2006E8B61 /* Auth */ = {
-			isa = PBXGroup;
-			children = (
-				15EF774D2BA61B01006E8B61 /* AuthView.swift */,
-			);
-			path = Auth;
 			sourceTree = "<group>";
 		};
 		15EF774F2BA61B11006E8B61 /* Extentions */ = {
@@ -149,6 +143,14 @@
 			path = Log;
 			sourceTree = "<group>";
 		};
+		15EF77622BA64340006E8B61 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				15EF77632BA64347006E8B61 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +167,9 @@
 			dependencies = (
 			);
 			name = CareerBoast;
+			packageProductDependencies = (
+				1503A3272BAC3E1000E37CD2 /* SwiftfulRouting */,
+			);
 			productName = CareerBoast;
 			productReference = 15EF77352BA61992006E8B61 /* CareerBoast.app */;
 			productType = "com.apple.product-type.application";
@@ -193,6 +198,9 @@
 				Base,
 			);
 			mainGroup = 15EF772C2BA61992006E8B61;
+			packageReferences = (
+				1503A3262BAC3E1000E37CD2 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+			);
 			productRefGroup = 15EF77362BA61992006E8B61 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -221,12 +229,12 @@
 			files = (
 				15EF77392BA61992006E8B61 /* CareerBoastApp.swift in Sources */,
 				15EF77582BA61B8A006E8B61 /* Preferences.swift in Sources */,
+				15EF77642BA64347006E8B61 /* HomeView.swift in Sources */,
 				15EF77552BA61B5B006E8B61 /* View + extns.swift in Sources */,
 				15EF774B2BA61AF0006E8B61 /* TestModel.swift in Sources */,
 				15EF77512BA61B27006E8B61 /* Color + extns.swift in Sources */,
 				15EF77532BA61B3C006E8B61 /* UIApplication.swift in Sources */,
 				15EF775B2BA61B9E006E8B61 /* Log.swift in Sources */,
-				15EF774E2BA61B01006E8B61 /* AuthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1503A3262BAC3E1000E37CD2 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1503A3272BAC3E1000E37CD2 /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1503A3262BAC3E1000E37CD2 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15EF772D2BA61992006E8B61 /* Project object */;
 }
