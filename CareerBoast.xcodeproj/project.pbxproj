@@ -65,6 +65,7 @@
 		15EF77372BA61992006E8B61 /* CareerBoast */ = {
 			isa = PBXGroup;
 			children = (
+				8780447F2BA7076500A48F1C /* Views */,
 				15EF77462BA61A49006E8B61 /* Resources  */,
 				15EF77482BA61AC3006E8B61 /* Models */,
 				15EF77472BA61AA6006E8B61 /* Modules */,
