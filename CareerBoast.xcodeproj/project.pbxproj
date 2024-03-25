@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15E5C02C2BB20B8800D78110 /* AlertShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C02B2BB20B8800D78110 /* AlertShow.swift */; };
+		15E5C0302BB20BB900D78110 /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E5C02F2BB20BB900D78110 /* AuthorizationViewModel.swift */; };
 		15EF77392BA61992006E8B61 /* CareerBoastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77382BA61992006E8B61 /* CareerBoastApp.swift */; };
 		15EF773D2BA61995006E8B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF773C2BA61995006E8B61 /* Assets.xcassets */; };
 		15EF77402BA61995006E8B61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF773F2BA61995006E8B61 /* Preview Assets.xcassets */; };
 		15EF774B2BA61AF0006E8B61 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF774A2BA61AF0006E8B61 /* TestModel.swift */; };
-		15EF774E2BA61B01006E8B61 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF774D2BA61B01006E8B61 /* AuthView.swift */; };
 		15EF77512BA61B27006E8B61 /* Color + extns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77502BA61B27006E8B61 /* Color + extns.swift */; };
 		15EF77532BA61B3C006E8B61 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77522BA61B3C006E8B61 /* UIApplication.swift */; };
 		15EF77552BA61B5B006E8B61 /* View + extns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77542BA61B5B006E8B61 /* View + extns.swift */; };
 		15EF77582BA61B8A006E8B61 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77572BA61B8A006E8B61 /* Preferences.swift */; };
 		15EF775B2BA61B9E006E8B61 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF775A2BA61B9E006E8B61 /* Log.swift */; };
-		878044832BA7078100A48F1C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878044822BA7078100A48F1C /* SwiftUIView.swift */; };
 		878B66602BA9F95B0092E19D /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878B665F2BA9F95B0092E19D /* AuthorizationView.swift */; };
 		87B707FE2BB1827300BF668C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 87B707FD2BB1827300BF668C /* FirebaseAuth */; };
 		87B708002BB1827300BF668C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 87B707FF2BB1827300BF668C /* FirebaseFirestore */; };
@@ -25,18 +25,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15E5C02B2BB20B8800D78110 /* AlertShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertShow.swift; sourceTree = "<group>"; };
+		15E5C02F2BB20BB900D78110 /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
 		15EF77352BA61992006E8B61 /* CareerBoast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareerBoast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EF77382BA61992006E8B61 /* CareerBoastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerBoastApp.swift; sourceTree = "<group>"; };
 		15EF773C2BA61995006E8B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15EF773F2BA61995006E8B61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15EF774A2BA61AF0006E8B61 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
-		15EF774D2BA61B01006E8B61 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		15EF77502BA61B27006E8B61 /* Color + extns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + extns.swift"; sourceTree = "<group>"; };
 		15EF77522BA61B3C006E8B61 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		15EF77542BA61B5B006E8B61 /* View + extns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + extns.swift"; sourceTree = "<group>"; };
 		15EF77572BA61B8A006E8B61 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		15EF775A2BA61B9E006E8B61 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
-		878044822BA7078100A48F1C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		878B665F2BA9F95B0092E19D /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
 		87FD020C2BB1AFFE008F4C1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +54,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15E5C02A2BB20B7C00D78110 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C02B2BB20B8800D78110 /* AlertShow.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		15E5C02D2BB20BA900D78110 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				878B665F2BA9F95B0092E19D /* AuthorizationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15E5C02E2BB20BAC00D78110 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15E5C02F2BB20BB900D78110 /* AuthorizationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		15EF772C2BA61992006E8B61 = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				87FD020C2BB1AFFE008F4C1F /* GoogleService-Info.plist */,
-				8780447F2BA7076500A48F1C /* Views */,
 				15EF77462BA61A49006E8B61 /* Resources  */,
 				15EF77482BA61AC3006E8B61 /* Models */,
 				15EF77472BA61AA6006E8B61 /* Modules */,
@@ -120,6 +143,7 @@
 		15EF77492BA61AD6006E8B61 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				15E5C02A2BB20B7C00D78110 /* Alert */,
 				15EF77592BA61B9B006E8B61 /* Log */,
 				15EF77562BA61B83006E8B61 /* CustomPropartyWrapper */,
 				15EF774F2BA61B11006E8B61 /* Extentions */,
@@ -130,7 +154,8 @@
 		15EF774C2BA61AF2006E8B61 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
-				15EF774D2BA61B01006E8B61 /* AuthView.swift */,
+				15E5C02E2BB20BAC00D78110 /* ViewModel */,
+				15E5C02D2BB20BA900D78110 /* View */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -159,15 +184,6 @@
 				15EF775A2BA61B9E006E8B61 /* Log.swift */,
 			);
 			path = Log;
-			sourceTree = "<group>";
-		};
-		8780447F2BA7076500A48F1C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				878044822BA7078100A48F1C /* SwiftUIView.swift */,
-				878B665F2BA9F95B0092E19D /* AuthorizationView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,15 +265,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				15EF77392BA61992006E8B61 /* CareerBoastApp.swift in Sources */,
+				15E5C02C2BB20B8800D78110 /* AlertShow.swift in Sources */,
 				15EF77582BA61B8A006E8B61 /* Preferences.swift in Sources */,
-				878044832BA7078100A48F1C /* SwiftUIView.swift in Sources */,
 				15EF77552BA61B5B006E8B61 /* View + extns.swift in Sources */,
 				15EF774B2BA61AF0006E8B61 /* TestModel.swift in Sources */,
 				15EF77512BA61B27006E8B61 /* Color + extns.swift in Sources */,
 				15EF77532BA61B3C006E8B61 /* UIApplication.swift in Sources */,
 				15EF775B2BA61B9E006E8B61 /* Log.swift in Sources */,
 				878B66602BA9F95B0092E19D /* AuthorizationView.swift in Sources */,
-				15EF774E2BA61B01006E8B61 /* AuthView.swift in Sources */,
+				15E5C0302BB20BB900D78110 /* AuthorizationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
