@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1503A3282BAC3E1000E37CD2 /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = 1503A3272BAC3E1000E37CD2 /* SwiftfulRouting */; };
+		15EE99692BB21511004604F8 /* AlertShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE99682BB21511004604F8 /* AlertShow.swift */; };
+		15EE996B2BB21523004604F8 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE996A2BB21523004604F8 /* AuthorizationView.swift */; };
+		15EE996D2BB21534004604F8 /* AuthorizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE996C2BB21534004604F8 /* AuthorizationViewModel.swift */; };
+		15EE997C2BB215C7004604F8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 15EE997B2BB215C7004604F8 /* FirebaseAuth */; };
+		15EE99A42BB21682004604F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15EE99A32BB21682004604F8 /* GoogleService-Info.plist */; };
 		15EF77392BA61992006E8B61 /* CareerBoastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF77382BA61992006E8B61 /* CareerBoastApp.swift */; };
 		15EF773D2BA61995006E8B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF773C2BA61995006E8B61 /* Assets.xcassets */; };
 		15EF77402BA61995006E8B61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF773F2BA61995006E8B61 /* Preview Assets.xcassets */; };
@@ -21,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15EE99682BB21511004604F8 /* AlertShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertShow.swift; sourceTree = "<group>"; };
+		15EE996A2BB21523004604F8 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		15EE996C2BB21534004604F8 /* AuthorizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewModel.swift; sourceTree = "<group>"; };
+		15EE99A32BB21682004604F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/sarap005931/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		15EF77352BA61992006E8B61 /* CareerBoast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareerBoast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EF77382BA61992006E8B61 /* CareerBoastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerBoastApp.swift; sourceTree = "<group>"; };
 		15EF773C2BA61995006E8B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,12 +49,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				1503A3282BAC3E1000E37CD2 /* SwiftfulRouting in Frameworks */,
+				15EE997C2BB215C7004604F8 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15EE995E2BB214A6004604F8 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				15EE99602BB214AD004604F8 /* View */,
+				15EE995F2BB214A9004604F8 /* ViewModel */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		15EE995F2BB214A9004604F8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15EE996C2BB21534004604F8 /* AuthorizationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		15EE99602BB214AD004604F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15EE996A2BB21523004604F8 /* AuthorizationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15EE99612BB214CA004604F8 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				15EE99682BB21511004604F8 /* AlertShow.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		15EF772C2BA61992006E8B61 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +108,7 @@
 		15EF77372BA61992006E8B61 /* CareerBoast */ = {
 			isa = PBXGroup;
 			children = (
-				8780447F2BA7076500A48F1C /* Views */,
+				15EE99A32BB21682004604F8 /* GoogleService-Info.plist */,
 				15EF77462BA61A49006E8B61 /* Resources  */,
 				15EF77482BA61AC3006E8B61 /* Models */,
 				15EF77472BA61AA6006E8B61 /* Modules */,
@@ -95,6 +138,7 @@
 		15EF77472BA61AA6006E8B61 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				15EE995E2BB214A6004604F8 /* Auth */,
 				15EF77622BA64340006E8B61 /* Home */,
 			);
 			path = Modules;
@@ -111,6 +155,7 @@
 		15EF77492BA61AD6006E8B61 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				15EE99612BB214CA004604F8 /* Alert */,
 				15EF77592BA61B9B006E8B61 /* Log */,
 				15EF77562BA61B83006E8B61 /* CustomPropartyWrapper */,
 				15EF774F2BA61B11006E8B61 /* Extentions */,
@@ -170,6 +215,7 @@
 			name = CareerBoast;
 			packageProductDependencies = (
 				1503A3272BAC3E1000E37CD2 /* SwiftfulRouting */,
+				15EE997B2BB215C7004604F8 /* FirebaseAuth */,
 			);
 			productName = CareerBoast;
 			productReference = 15EF77352BA61992006E8B61 /* CareerBoast.app */;
@@ -201,6 +247,7 @@
 			mainGroup = 15EF772C2BA61992006E8B61;
 			packageReferences = (
 				1503A3262BAC3E1000E37CD2 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
+				15EE996E2BB215C7004604F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 15EF77362BA61992006E8B61 /* Products */;
 			projectDirPath = "";
@@ -218,6 +265,7 @@
 			files = (
 				15EF77402BA61995006E8B61 /* Preview Assets.xcassets in Resources */,
 				15EF773D2BA61995006E8B61 /* Assets.xcassets in Resources */,
+				15EE99A42BB21682004604F8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,13 +277,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				15EF77392BA61992006E8B61 /* CareerBoastApp.swift in Sources */,
+				15EE99692BB21511004604F8 /* AlertShow.swift in Sources */,
 				15EF77582BA61B8A006E8B61 /* Preferences.swift in Sources */,
 				15EF77642BA64347006E8B61 /* HomeView.swift in Sources */,
 				15EF77552BA61B5B006E8B61 /* View + extns.swift in Sources */,
 				15EF774B2BA61AF0006E8B61 /* TestModel.swift in Sources */,
 				15EF77512BA61B27006E8B61 /* Color + extns.swift in Sources */,
 				15EF77532BA61B3C006E8B61 /* UIApplication.swift in Sources */,
+				15EE996B2BB21523004604F8 /* AuthorizationView.swift in Sources */,
 				15EF775B2BA61B9E006E8B61 /* Log.swift in Sources */,
+				15EE996D2BB21534004604F8 /* AuthorizationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +512,14 @@
 				minimumVersion = 5.3.2;
 			};
 		};
+		15EE996E2BB215C7004604F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -468,6 +527,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1503A3262BAC3E1000E37CD2 /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
 			productName = SwiftfulRouting;
+		};
+		15EE997B2BB215C7004604F8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 15EE996E2BB215C7004604F8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
