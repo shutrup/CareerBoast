@@ -22,11 +22,15 @@ struct AuthorizationView: View {
                 .foregroundStyle(Color.white)
             
             VStack{
-                Text("Create a new account")
-                    .font(.largeTitle)
-                    .multilineTextAlignment(.leading)
-                    .bold()
-                    .padding()
+                HStack {
+                    Text("Create a new account")
+                        .font(.largeTitle)
+                        .multilineTextAlignment(.leading)
+                        .bold()
+                        .padding()
+                    .frame(width: 300)
+                    Spacer()
+                }
                 
                 Spacer().frame(height: 10)
                 
@@ -38,7 +42,7 @@ struct AuthorizationView: View {
                     .cornerRadius(10, corners: .allCorners)
 
                 Spacer().frame(height: 10)
-                
+
                 TextField("Password", text: $vm.password)
                     .padding()
                     .frame(width: 300, height: 50)

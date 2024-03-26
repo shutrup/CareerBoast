@@ -15,6 +15,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct CareerBoastApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             AuthorizationView()
